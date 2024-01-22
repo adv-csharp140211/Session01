@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T15:22:37.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VYw49fu_qLpmrdxq2zbv" version="22.1.21" type="device" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-22T17:57:01.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="psaDH9w9llxWVJLiL_2S" version="22.1.21" type="device" pages="5">
   <diagram id="6JvZwBCVHnRGvAxwM3tI" name="1-Stack">
     <mxGraphModel dx="1434" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="56XQtP_wYSyffRp49JQc" name="2-Types">
-    <mxGraphModel dx="1422" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="iiQT5wS2dP3URHGbuQMZ-0" />
         <mxCell id="iiQT5wS2dP3URHGbuQMZ-1" parent="iiQT5wS2dP3URHGbuQMZ-0" />
@@ -54,11 +54,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NFp1OnWu2yK0_XkJn490" name="5-Exercice3">
-    <mxGraphModel dx="981" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-jzJUh-4RhVA3oOPNSEX-0" />
         <mxCell id="-jzJUh-4RhVA3oOPNSEX-1" parent="-jzJUh-4RhVA3oOPNSEX-0" />
-        <mxCell id="P-KetLvytib8GP--b5vO-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-jzJUh-4RhVA3oOPNSEX-1">
+        <mxCell id="P-KetLvytib8GP--b5vO-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="-jzJUh-4RhVA3oOPNSEX-1" vertex="1">
           <mxGeometry x="200" y="118.44" width="360" height="240" as="geometry" />
         </mxCell>
         <mxCell id="S4r46cS-gj8OAon0001p-0" value="Line 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" parent="-jzJUh-4RhVA3oOPNSEX-1" vertex="1">
@@ -95,12 +95,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zagfrg8lVSEpL426IzF_" name="3-Exercice">
-    <mxGraphModel dx="1422" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ka-YFrYOrOeDm2bTHJlX-0" />
         <mxCell id="ka-YFrYOrOeDm2bTHJlX-1" parent="ka-YFrYOrOeDm2bTHJlX-0" />
         <mxCell id="M8DRsebZvGFNZ55sFME3-1" value="Window Title" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" parent="ka-YFrYOrOeDm2bTHJlX-1" vertex="1">
-          <mxGeometry x="35" y="50" width="780" height="490" as="geometry" />
+          <mxGeometry x="20" y="50" width="780" height="490" as="geometry" />
         </mxCell>
         <mxCell id="M8DRsebZvGFNZ55sFME3-2" value="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" parent="ka-YFrYOrOeDm2bTHJlX-1" vertex="1">
           <mxGeometry x="390" y="150" width="150" height="30" as="geometry" />
@@ -172,12 +172,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="4-Exercice2" id="Pvu4AZqvmzLCbV6uUfsB">
-    <mxGraphModel dx="1422" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pEZ8P13AdV4W7d0tKOq_-0" />
         <mxCell id="pEZ8P13AdV4W7d0tKOq_-1" parent="pEZ8P13AdV4W7d0tKOq_-0" />
         <mxCell id="pEZ8P13AdV4W7d0tKOq_-2" value="Window Title" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" parent="pEZ8P13AdV4W7d0tKOq_-1" vertex="1">
-          <mxGeometry x="30" y="90" width="780" height="490" as="geometry" />
+          <mxGeometry x="50" y="70" width="780" height="490" as="geometry" />
         </mxCell>
         <mxCell id="pEZ8P13AdV4W7d0tKOq_-3" value="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" parent="pEZ8P13AdV4W7d0tKOq_-1" vertex="1">
           <mxGeometry x="390" y="140" width="150" height="30" as="geometry" />

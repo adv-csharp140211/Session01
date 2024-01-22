@@ -38,6 +38,7 @@
             buttonDiv = new Button();
             label1 = new Label();
             textBoxResult = new TextBox();
+            buttonUsers = new Button();
             SuspendLayout();
             // 
             // labelA
@@ -90,6 +91,7 @@
             buttonSub.TabIndex = 5;
             buttonSub.Text = "➖";
             buttonSub.UseVisualStyleBackColor = true;
+            buttonSub.Click += buttonSub_Click;
             // 
             // buttonMul
             // 
@@ -99,6 +101,7 @@
             buttonMul.TabIndex = 6;
             buttonMul.Text = "✖️";
             buttonMul.UseVisualStyleBackColor = true;
+            buttonMul.Click += buttonMul_Click;
             // 
             // buttonDiv
             // 
@@ -108,6 +111,7 @@
             buttonDiv.TabIndex = 7;
             buttonDiv.Text = "➗";
             buttonDiv.UseVisualStyleBackColor = true;
+            buttonDiv.Click += buttonDiv_Click;
             // 
             // label1
             // 
@@ -126,11 +130,22 @@
             textBoxResult.Size = new Size(345, 23);
             textBoxResult.TabIndex = 9;
             // 
+            // buttonUsers
+            // 
+            buttonUsers.Location = new Point(92, 186);
+            buttonUsers.Name = "buttonUsers";
+            buttonUsers.Size = new Size(75, 23);
+            buttonUsers.TabIndex = 10;
+            buttonUsers.Text = "Users";
+            buttonUsers.UseVisualStyleBackColor = true;
+            buttonUsers.Click += buttonUsers_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(477, 184);
+            ClientSize = new Size(477, 221);
+            Controls.Add(buttonUsers);
             Controls.Add(textBoxResult);
             Controls.Add(label1);
             Controls.Add(buttonDiv);
@@ -160,5 +175,6 @@
         private Button buttonDiv;
         private Label label1;
         private TextBox textBoxResult;
+        private Button buttonUsers;
     }
 }
