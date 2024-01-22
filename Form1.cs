@@ -129,6 +129,12 @@ namespace App01
         }
 
 
+        private int calc(int a, int b, string op)
+        {
+            return a + b;
+        }
+
+
         //delgate
         //event
 
