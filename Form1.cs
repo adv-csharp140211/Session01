@@ -1,4 +1,6 @@
-﻿namespace App01
+﻿using Microsoft.VisualBasic;
+
+namespace App01
 {
     public partial class Form1 : Form
     {
@@ -52,9 +54,69 @@
              *      CONST_CASE -> const 
              */
 
+            //Boxing
+            var name = "ali";
+            object obj = name;
 
+            //Unboxing
+            var name2 = (string)obj;
+            /*
+             * Runtime Error 
+             * Readablily 
+             */
+
+            //Convert
+            var name3 = Convert.ToString(obj);
+            /*
+             * Runtime Error 
+             * Readablily 
+             * Performance
+             */
+            //Genrics
+
+
+            var p1 = new Product();
+            p1.Name = "xyz";
+
+            var p2 = new Product("abc", 100);
+
+            //bject Initializer
+            var p3= new Product { 
+                Name = "monitor",
+                Price = 1000
+            };
+
+
+            var p4 = new Product2("keyboard", 2000);
+            
 
         }
 
+    }
+
+
+    class Product
+    {
+        public string Name { get; set; }
+        public int Price { get; set; }
+
+
+        public Product()
+        {
+            
+        }
+
+        public Product(string name, int price)
+        {
+            Name = name;
+            Price = price;
+        }
+
+    }
+
+    //Record - 
+    //C# 12 - .net 8
+    class Product2(string Name, int Price)
+    {
     }
 }
