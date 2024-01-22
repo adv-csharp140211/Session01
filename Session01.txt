@@ -1,0 +1,245 @@
+Advanced C#
+
+What will you learn
+	Base
+	Advanced
+		Desktop Application - (Form) (NO WEB/MVC )
+		Database - ADO.net/EF 6 Database First/EF 8 (code first)
+		Encryption/Decryption
+		Reporting
+		Web Services
+			REST
+			Soap
+			GRPC
+		Source Control
+			Git
+		Regex
+		Genric
+		Multi Layering	 / Service
+		Authentication , Authorization - RBAC (Role Based Access Control)
+		Multi Threading , Async/Await
+		Transaction 
+	...
+	
+Exercise, Exercise, Exercise
+
+Tools
+	Visual Studio 2022🕵️‍	/ VSCode / Rider		
+	SQL Server 2016+, 2022
+	Optional -> LinqPad
+	
+	
+Visual Studio Project Type
+	Class Library
+	Console Application
+	Desktop Application
+		WinForm
+		WPF
+	Web Application
+		WebForm
+		WebPage
+		Asp.net
+		Asp.net Core
+	Windows Services
+	Services (WCF, ...)
+	Mobile Xamarin
+	MAUI
+	...
+	
+.Net Framework
+.Net Core
+.Net Standard
+C# 8
+
+Solution 	
+	For grouping  multiple projects
+	Only on can be opened 
+	
+Review
+	Variables
+		Scope
+		Accessibility - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/accessibility-levels
+			╔════════════════════════╦═══════════════════════════════════════════════════════════════════════════════════════╗
+			║ Declared accessibility ║ Meaning                                                                               ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ public                 ║ Access is not restricted.                                                             ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ protected              ║ Access is limited to the containing class or types derived from the containing class. ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ internal               ║ Access is limited to the current assembly.                                            ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ protected internal     ║ Access is limited to the current assembly or types derived from the containing class. ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ private                ║ Access is limited to the containing type.                                             ║
+			╠════════════════════════╬═══════════════════════════════════════════════════════════════════════════════════════╣
+			║ private protected      ║ Access is limited to the containing class or types derived from the containing class  ║
+			║                        ║ within the current assembly. Available since C# 7.2.                                  ║
+			╚════════════════════════╩═══════════════════════════════════════════════════════════════════════════════════════╝
+		Initial Value
+		Naming Convention
+			PascalCase
+			camelCase
+		Data Type
+			Value Type	
+				Builtin types except `String`
+				Stack
+			Reference Type
+				use `new` keyword
+				Heap
+			
+				var p1 = new Product();
+				p1.Price = 100;
+				var p2 = p1;
+				p2.Price = 200;
+				p1.Price ?
+				
+			Value vs Reference
+			var <==
+			
+	Garbage Collector (GC)
+		p1 = null ?
+			
+	Object
+		Parent of all data types
+		
+		Boxing
+			* -> Object
+			Minimum performance impact
+			
+		Unboxing
+			Object -> *
+			Cons:
+				Convert Cost (++Ram, CPU)
+				Run-Time Error
+				Readability 
+		
+			Don't Use👎
+		
+			
+	Class - OO
+		Definition ?
+		Anatomy 
+			Accessibility			
+			Contractors
+				new we are calling Contractors
+			fields (private variables)
+			property (public variables)
+			method
+			event
+			Delegate
+			
+			
+		Sample class
+	
+
+Class
+	Contractors
+		default
+		multiple
+	*method overloading*
+	
+	*** Object Initialization *** 🌟
+	
+	
+	Method definition?
+		return type, void
+		return value
+		parameters
+		
+Sample
+	add textBox.Text to listBox.Items IF NOT EXISTS
+		Items.Contains
+
+📝⌚15
+	Calculator	
+		Input A
+		Input B
+		+ - * /
+		result 
+		with char '+'
+		with Enum 
+			starts from 0
+	
+Switch case
+	all cases must either break or return
+	switch expression  🚀
+		var c = op switch
+		{
+			"+" => a + b,
+			"-" => a - b,
+			"*" => a * b,
+			"/" => a / b,
+			_ => 0,
+		};
+Enum	
+	Flags
+		0 => None
+		1
+		2
+		4
+		8
+		16
+	op.HasFlag(Operators.Add)
+	
+	
+Method, Method, Method - Auto Generate Definition
+
+
+
+Sample
+	Create A List
+	
+	Classes
+		User  --folder-> Model
+		UserService
+		memoryData
+	
+	Static Class
+		cant be instantiated (no new) 
+		Utility
+		Single User
+			vs Multi User (i.e. Web)
+		
+		
+	Show() vs ShowDialog()
+	
+	
+	Multiple data 
+		Array[] : size must be specified!
+		List<👥> Generic 
+			👉 must be initialized, (new List<👥>() )
+
+
+	Namespace
+		Using
+		ctrl+.
+		
+		
+	//Why Use Service? Business Logic
+	UserService
+		Add(User user)
+		Edit(User user)
+			with for
+			with lambda
+			
+		Update(User user)
+		Delete(int ID)
+		Get(int index)
+	
+	ResetForm()
+		.Clear()
+		
+	First()
+		currentIndex
+		
+	FillControl()
+		
+		
+	Add default values in LocalData
+		
+	Delete
+		MessageBox.Show("Sure?", MessageBoxButtons.YesNo) == DialogResult.Yes
+		
+	
+	Tamrin
+	
