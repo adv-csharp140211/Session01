@@ -79,7 +79,7 @@ namespace App01
             p1.Name = "xyz";
 
             var p2 = new Product("abc", 100);
-
+            
             //bject Initializer
             var p3= new Product { 
                 Name = "monitor",
@@ -95,8 +95,12 @@ namespace App01
     }
 
 
-    class Product
+    //Acces level
+    
+    public class Product
     {
+        //property -> snippet
+        //prop, propfull
         public string Name { get; set; }
         public int Price { get; set; }
 
@@ -111,6 +115,22 @@ namespace App01
             Name = name;
             Price = price;
         }
+
+        //field
+        int xyz = 0;
+        int _xyz = 0;
+
+        //method
+        //method / function
+
+        private int Add(int a, int b)
+        {           
+            return a + b;
+        }
+
+
+        //delgate
+        //event
 
     }
 
