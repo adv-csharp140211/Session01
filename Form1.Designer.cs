@@ -80,6 +80,7 @@
             buttonAdd.TabIndex = 4;
             buttonAdd.Text = "➕";
             buttonAdd.UseVisualStyleBackColor = true;
+            buttonAdd.Click += buttonAdd_Click;
             // 
             // buttonSub
             // 
