@@ -60,6 +60,7 @@
             // 
             textBoxId.Location = new Point(227, 36);
             textBoxId.Name = "textBoxId";
+            textBoxId.ReadOnly = true;
             textBoxId.Size = new Size(242, 23);
             textBoxId.TabIndex = 1;
             // 
@@ -135,6 +136,7 @@
             buttonFirst.TabIndex = 10;
             buttonFirst.Text = "<<";
             buttonFirst.UseVisualStyleBackColor = true;
+            buttonFirst.Click += buttonFirst_Click;
             // 
             // buttonPrev
             // 
@@ -144,6 +146,7 @@
             buttonPrev.TabIndex = 11;
             buttonPrev.Text = "<";
             buttonPrev.UseVisualStyleBackColor = true;
+            buttonPrev.Click += buttonPrev_Click;
             // 
             // buttonSave
             // 
@@ -172,6 +175,7 @@
             buttonNew.TabIndex = 14;
             buttonNew.Text = "New";
             buttonNew.UseVisualStyleBackColor = true;
+            buttonNew.Click += buttonNew_Click;
             // 
             // buttonNext
             // 
@@ -181,6 +185,7 @@
             buttonNext.TabIndex = 15;
             buttonNext.Text = ">";
             buttonNext.UseVisualStyleBackColor = true;
+            buttonNext.Click += buttonNext_Click;
             // 
             // buttonLast
             // 
@@ -190,12 +195,13 @@
             buttonLast.TabIndex = 16;
             buttonLast.Text = ">>";
             buttonLast.UseVisualStyleBackColor = true;
+            buttonLast.Click += buttonLast_Click;
             // 
             // FormUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(703, 275);
             Controls.Add(buttonLast);
             Controls.Add(buttonNext);
             Controls.Add(buttonNew);
@@ -215,6 +221,7 @@
             Controls.Add(label1);
             Name = "FormUser";
             Text = "FormUser";
+            Load += FormUser_Load;
             ResumeLayout(false);
             PerformLayout();
         }
